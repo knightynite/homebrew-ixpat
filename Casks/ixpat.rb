@@ -1,6 +1,6 @@
 cask "ixpat" do
-  version "0.1.0"
-  sha256 "3ec50607fe490b0afcff12697178f6478889910ad74ae42838683a0ed6ff4f8d"
+  version "0.1.1"
+  sha256 "2f57a232db5e90eaa98aa982322e68d803e9abb5af689fca48f72a57537d6785"
 
   url "https://github.com/knightynite/ixpat/releases/download/v#{version}/iXpat-#{version}.dmg"
   name "iXpat"
