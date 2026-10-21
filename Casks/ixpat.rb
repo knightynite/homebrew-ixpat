@@ -4,7 +4,7 @@ cask "ixpat" do
 
   url "https://github.com/knightynite/ixpat/releases/download/v#{version}/iXpat-#{version}.dmg"
   name "iXpat"
-  desc "Haptics, Action Ring, kinetic scrolling and force click for the Surface Mouse (2nd Edition)"
+  desc "Haptics, Action Ring and kinetic scrolling for the Surface Mouse (2nd Edition)"
   homepage "https://knightynite.github.io/ixpat/"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "ixpat" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "iXpat.app"
 
